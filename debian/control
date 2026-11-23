@@ -1,0 +1,12 @@
+Source: submodulepackage
+Section: misc
+Priority: optional
+Maintainer: Molior Test <test@molior.info>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.2
+
+Package: submodulepackage
+Section: misc
+Architecture: all
+Depends: ${misc:Depends}
+Description: Test package
